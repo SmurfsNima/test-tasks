@@ -28,6 +28,9 @@ export const UserCard = ({user} : UserCardProps) => {
             <EmailIcon />
             <p className='text-xl'>{email}</p>
         </div>
+        <div>
+            
+        </div>
     </div>
   )
 }
