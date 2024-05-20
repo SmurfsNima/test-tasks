@@ -36,7 +36,7 @@ export const TextFields = () => {
           helperText={errors.password ? "Incorrect password" : ""}
          onChange={(e)=> setPassword(e.target.value)}
         />
-        <button type='submit' className='bg-green-300 hover:bg-green-600 py-2 px-6 rounded-lg text-white'>submit</button>
+        <button type='submit' className='bg-green-300 hover:bg-green-500 py-2 px-6 rounded-lg text-white'>submit</button>
 
     </form>
   )
