@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { CustomButtons } from './components/CustomButtons';
+import { TextFields } from './components/TextFields';
 
 function App() {
   return (
@@ -9,9 +10,7 @@ function App() {
       <CustomButtons text='red' otherClasses='bg-red-500 text-[16px]' />
       <CustomButtons text='blue' otherClasses='bg-blue-500 text-[18px]'/>
     </div>
-   
-   
-   
+    <TextFields/>
     </main>
   );
 }
