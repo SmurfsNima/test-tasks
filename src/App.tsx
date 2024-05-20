@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { CustomButtons } from './components/CustomButtons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <main className="max-w-[1440px] mx-auto overflow-hidden  px-16 sm:px-6 py-4 ">
+    <div className='flex gap-2'>
+      <CustomButtons text='red' otherClasses='bg-red-500 text-[16px]' />
+      <CustomButtons text='blue' otherClasses='bg-blue-500 text-[18px]'/>
     </div>
+   
+   
+   
+    </main>
   );
 }
 
