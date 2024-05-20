@@ -23,7 +23,7 @@ function App() {
     <div className='flex max-sm:justify-center w-full'>
       <UserCard user={user}  />
     </div>
-    <div className='mt-12 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+    <div className='mt-12 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
       {Posts.map((post)=>(
         <PostSection key={post.title} post= {post} />
       ))}
